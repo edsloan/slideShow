@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Jquery Slideshow Tutorial</title>
+
+		<style type="text/css">
+		body {
+			margin:0;padding:0;
+		}
+		.container {
+			width: 500px;
+			margin: 100px auto;
+		}
+		.slideshow {
+			position: relative;
+		}
+			.slideshow img {
+				display: none;
+				position: absolute;
+			}
+		</style>
+		
+	</head>
+	<body>
+
+		<div class="container">
+			
+			<div class="slideshow">
+				<img src="http://www.lorempixel.com/500/300" alt="">
+				<img src="http://placekitten.com/500/300" alt="">
+				<img src="http://placehold.it/500x300" alt="">
+				<img src="http://dummyimage.com/500x300/292929/e3e3e3&amp;text=Your Mom Goes to College" alt="">
+				<img src="http://placedog.com/500/300" alt="">
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.slideshow.js"></script>
+		<script type="text/javascript">
+			$.slideShow('.slideshow');
+		</script>
+
+	
+	</body>
+</html>
